@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": false,
+  "editor.indentSize": "tabSize",
+  "editor.tabSize": 4,
+  "[c][cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format",
+  },
+  "[json][jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.tabSize": 2
+  },
+  "files.associations": {
+    "stdio.h": "c"
+  }
+}
