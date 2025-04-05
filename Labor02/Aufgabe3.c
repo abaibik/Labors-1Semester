@@ -53,7 +53,7 @@ int main()
     int weight, height;
     float result;
 
-    scanf("%d%d", &weight, &height);
+    scanf("%d %d", &weight, &height);
 
     result = bmi(weight, height);
 
