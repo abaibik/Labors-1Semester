@@ -3,6 +3,8 @@
   "editor.detectIndentation": false,
   "editor.indentSize": "tabSize",
   "editor.tabSize": 4,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
   "[c][cpp]": {
     "editor.defaultFormatter": "xaver.clang-format",
   },
@@ -12,5 +14,8 @@
   },
   "files.associations": {
     "stdio.h": "c"
-  }
+  },
+  "cmake.configureArgs": [
+    "-DCMAKE_TOOLCHAIN_FILE=C:/Users/aleks/scoop/apps/vcpkg/current/scripts/buildsystems/vcpkg.cmake"
+  ]
 }
