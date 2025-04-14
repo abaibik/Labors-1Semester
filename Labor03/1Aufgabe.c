@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 
     scanf("%d", &userNumber);
 
-    for (int i = 1; i <= userNumber; i++)
+    for (int i = 0; i < userNumber; i++)
     {
         printf("*");
     }
