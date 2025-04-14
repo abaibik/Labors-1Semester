@@ -17,3 +17,4 @@ function(add_source SOURCE_FILE)
 endfunction(add_source)
 
 add_subdirectory(Labor02)
+add_subdirectory(Labor03)
