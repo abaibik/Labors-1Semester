@@ -13,12 +13,10 @@ The output should be right-aligned.
 {
     printf("Celsius Fahrenheit\n");
 
-    // Loop, von -20, jede Schritte + 20.
-    // use i in formel
     for (int i = -20; i <= 300; i += 20)
     {
         int fahrenheit = (i * 9) / 5 + 32;
-        printf("%3d        %3d\n", i, fahrenheit);
+        printf("    %3d        %3d\n", i, fahrenheit);
     }
 
     return 0;
