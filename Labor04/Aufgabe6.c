@@ -1,6 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+// calculates the string length
+
 int stringlength(char string[])
 {
     int length = 0;
