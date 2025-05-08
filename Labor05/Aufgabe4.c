@@ -1,24 +1,18 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main(int argc, char *argv[])
 {
-    char string[41];
-    int shift = 'a' - 'A';  // 32 in ASCII
+    char vowel;
+    char str[41];
 
-    if (!fgets(string, sizeof(string), stdin))
-        return 0;
+    scanf(" %c %40s", &vowel, str);
 
-    for (int i = 0; string[i]; i++)
+    for (int i = 0; str[i] != '\0'; i++)
     {
-        if (string[i] >= 'a' && string[i] <= 'z')
-            string[i] -= shift;
-
-        else if (string[i] >= 'A' && string[i] <= 'Z')
-            string[i] += shift;
+        if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u' || str[i] == 'A' || str[i] == 'E' || str[i] == 'I' || str[i] == 'O' || str[i] == 'U')
+            str[i] = vowel;
     }
 
-    printf("%s", string);
-
+    printf("%s", str);
     return 0;
 }
