@@ -1,6 +1,11 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+/*
+Replace each upper case letter in an entered string <=40 characters with the corresponding lower case letter and vice versa.
+Characters that are not letters (a-z, A-Z) are not changed.
+*/
+
 int main()
 {
     char string[41];

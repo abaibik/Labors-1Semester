@@ -1,6 +1,11 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+/*
+Read in a string <=40 characters and output a part of it.
+The part is defined by two indices (from/to, incl.).
+*/
+
 int main()
 {
     char string[41];

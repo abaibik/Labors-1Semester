@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+Replace each vowel in an entered string <=40 characters with an additionally entered letter.
+*/
+
 int main(int argc, char *argv[])
 {
     char vowel;

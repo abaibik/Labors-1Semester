@@ -1,6 +1,10 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+/*
+Read a string < 40 characters and count all vowels (only a,e,i,o,u, lower and upper case).
+*/
+
 int main(int argc, char *argv[])
 {
     char string[40];

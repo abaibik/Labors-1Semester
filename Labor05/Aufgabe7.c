@@ -1,6 +1,9 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+/*
+Reverse an entered string and output it.
+*/
 int main()
 {
     char string[100];

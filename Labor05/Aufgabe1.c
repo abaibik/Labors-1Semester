@@ -1,6 +1,11 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+/*
+Read values from the keyboard into an array of 4 double components.
+Determine which component has the smallest value and display the index of the component and its value on the screen
+*/
+
 int main(int argc, char *argv[])
 {
     double array[4];

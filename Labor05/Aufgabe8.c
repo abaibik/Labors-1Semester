@@ -1,6 +1,13 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+/*
+Calculate the grade point average.
+You will be given several numbers.
+Read in the numbers until you have received a maximum of 10 grades.
+Stop reading in if you receive an invalid grade (< 1.0 or > 6.0).
+*/
+
 int main()
 {
     float grades[10], sum = 0.0, result;
