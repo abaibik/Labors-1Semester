@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /*
-1. create a pointer for the variable value that points to value
-2. change all uses and changes of value to operations with the pointer
+1. Create a pointer to the variable value
+2. Change all uses and modifications of value so that the pointer is used instead.
 */
 
 int main(int argc, char *argv[])
@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 
     printf("%d\n", *ptr);
 
-    value = 85;
+    *ptr = 85;
     printf("%d\n", *ptr);
 
     printf("%d\n", ++*ptr);
