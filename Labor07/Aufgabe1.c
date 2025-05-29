@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
-1. Create a pointer to the variable value
+1. Create a pointer to the variable `value`
 2. Change all uses and modifications of value so that the pointer is used instead.
 */
 
