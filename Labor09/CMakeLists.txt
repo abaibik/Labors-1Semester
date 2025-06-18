@@ -3,3 +3,4 @@ project(Labor09)
 
 add_executable(Aufgabe1 Aufgabe1.c)
 add_executable(Aufgabe2 Aufgabe2.c)
+add_executable(Aufgabe3 Aufgabe3.c)
