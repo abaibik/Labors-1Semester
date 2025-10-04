@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.spp": "cpp",
+        "iterator": "cpp",
+        "xmemory": "cpp",
+        "xutility": "cpp",
+        "*.сpp": "cpp"
+    }
+}
