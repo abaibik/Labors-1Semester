@@ -1,68 +1,67 @@
 
 #include <iostream>
-using namespace std;
 
-int function(int i_1)
-{
-    cout << "Funktion  1: i_1=" << i_1 << endl;
-    return 0;
-}
+// int function(int i_1)
+// {
+//     std::cout << "Funktion  1: i_1=" << i_1 << std::endl;
+//     return 0;
+// }
 
 /*void function(int i_1)
 {
-    cout << "Funktion  2: i_1=" << i_1 << endl;
+    std::cout << "Funktion  2: i_1=" << i_1 << std::endl;
 }
 */
 
-// char function(int i_1)
-// {
-//     cout << "Funktion  3: i_1=" << i_1 << endl;
-//     return 'a';
-// }
+char function(int i_1)
+{
+    std::cout << "Funktion  3: i_1=" << i_1 << std::endl;
+    return 'a';
+}
 
 // int function(int &i_1)
 // {
-//     cout << "Funktion  4: i_1=" << i_1 << endl;
+//     std::cout << "Funktion  4: i_1=" << i_1 << std::endl;
 //     return 1;
 // }
 
 int function(int i_1, int i_2)
 {
-    cout << "Funktion  5: i_1=" << i_1 << " i_2=" << i_2 << endl;
+    std::cout << "Funktion  5: i_1=" << i_1 << " i_2=" << i_2 << std::endl;
     return 1;
 }
 int function(char c_1, int i_1)
 {
-    cout << "Funktion  6: c_1=" << c_1 << " i_1=" << i_1 << endl;
+    std::cout << "Funktion  6: c_1=" << c_1 << " i_1=" << i_1 << std::endl;
     return 1;
 }
 /*
 int function(int i_1, int i_2 = 0)
 {
-    cout << "Funktion  7: i_1=" << i_1 << " i_2=" << i_2 << endl;
+    std::cout << "Funktion  7: i_1=" << i_1 << " i_2=" << i_2 << std::endl;
     return 1;
 }
 */
 int function(double d_1, int i_1, char c_1 = 'a')
 {
-    cout << "Funktion  8: d_1=" << d_1 << " i_1=" << i_1 << " c_1=" << c_1 << endl;
+    std::cout << "Funktion  8: d_1=" << d_1 << " i_1=" << i_1 << " c_1=" << c_1 << std::endl;
     return 1;
 }
 int function(double d_1, double d_2 = 1.1, int i_1 = 0)
 {
-    cout << "Funktion  9: d_1=" << d_1 << " d_2=" << d_2 << " i_1=" << i_1 << endl;
+    std::cout << "Funktion  9: d_1=" << d_1 << " d_2=" << d_2 << " i_1=" << i_1 << std::endl;
     return 1;
 }
 /*
 int function(double d_1, double d_2 = 1.1, char c_1)
 {
-    cout << "Funktion 10: d_1=" << d_1 << " d_2=" << d_2 << " c_1=" << c_1 << endl;
+    std::cout << "Funktion 10: d_1=" << d_1 << " d_2=" << d_2 << " c_1=" << c_1 << std::endl;
     return 1;
 }
 */
 int function(char c_1, char c_2, int i_1 = 2, char c_3 = 'c')
 {
-    cout << "Funktion 11: c_1=" << c_1 << " c_2=" << c_2 << " i_1=" << i_1 << " c_3=" << c_3 << endl;
+    std::cout << "Funktion 11: c_1=" << c_1 << " c_2=" << c_2 << " i_1=" << i_1 << " c_3=" << c_3 << std::endl;
     return 1;
 }
 int main(int argc, char *argv[])

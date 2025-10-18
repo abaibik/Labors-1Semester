@@ -6,5 +6,6 @@
         "xutility": "cpp",
         "*.сpp": "cpp",
         "iostream": "cpp"
-    }
+    },
+    "cmake.useCMakePresets": "always"
 }

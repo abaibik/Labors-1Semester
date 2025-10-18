@@ -1,13 +1,12 @@
 cmake_minimum_required(VERSION 4.0)
 project(CPP LANGUAGES CXX)
 
-# add_executable(Aufgabe0 Aufgabe0.сpp)
+add_executable(Aufgabe0 Aufgabe0.cpp)
+add_executable(Aufgabe1 Aufgabe1.cpp)
+add_executable(Aufgabe2 Aufgabe2.cpp)
+add_executable(Aufgabe3 Aufgabe3.cpp)
 add_executable(Aufgabe4 Aufgabe4.cpp)
-set_target_properties(
-    Aufgabe4 PROPERTIES
-    LINKER_LANGUAGE CXX
-    CXX_STANDARD 11
-    COMPILE_WARNING_AS_ERROR OFF
-)
+add_executable(Aufgabe5 Aufgabe5.cpp)
+add_executable(Aufgabe6 Aufgabe6.cpp)
 
-target_compile_options(Aufgabe4 PRIVATE -Wall -Wextra -Wpedantic -Wconversion)
+add_compile_options(Aufgabe4 PRIVATE -Wall -Wextra -Wpedantic -Wconversion)
